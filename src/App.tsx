@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { theme } from './theme';
+console.log('THEME: ', theme)
 
 class App extends Component {
   render() {

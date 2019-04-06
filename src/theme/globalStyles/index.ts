@@ -1,12 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 import { themeColors } from '../colors';
 import { CSSReset } from './CSSReset';
-import { Font } from '../fonts';
+import { font } from '../fonts';
 
 export const GlobalStyles = createGlobalStyle`
   ${CSSReset};
   html, body {
-    font-family: ${Font};
+    font-family: ${font};
     color: black;
     background-color: ${themeColors.primary1};
   }
