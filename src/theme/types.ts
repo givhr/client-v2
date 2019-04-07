@@ -5,30 +5,30 @@ export interface ITheme extends IThemeColors, IThemeBoxShadows {
 export type PrimaryFont = 'Helvetica, Arial';
 
 export interface IThemeBoxShadows {
-  vertNav:'0 1px 4px 0 rgba(0,0,0,0.2)',
-  horzNav:'0 2px 6px 0 rgba(0,0,0,0.5)',
-  card:'0 2px 6px 0 rgba(95,95,95,0.5)',
-  giveawayCard:'0 15px 20px 3px rgba(95,95,95,0.33)',
-  hr:'0 3px 5px 0 rgba(0,0,0,0.13);'
-};
+  vertNav: '0 1px 4px 0 rgba(0,0,0,0.2)';
+  horzNav: '0 2px 6px 0 rgba(0,0,0,0.5)';
+  card: '0 2px 6px 0 rgba(95,95,95,0.5)';
+  giveawayCard: '0 15px 20px 3px rgba(95,95,95,0.33)';
+  hr: '0 3px 5px 0 rgba(0,0,0,0.13);';
+}
 
 export interface IThemeColors {
-  primary1: '#FFFFFF',
-  primary2: '#F8F8F8',
-  primary3: '#F0F0F0',
-  primary4: '#E5E5E5',
-  primary5: '#D3D3D3',
-  primary6: '#B5B5B5',
-  primary7: '#888787',
-  primary8: '#5F5F5F',
-  primary9: '#3E3E3E',
-  primary10: '#C8BCCF',
-  primary11: '#9981A5',
-  primary12: '#836793',
-  primary13: '#765787',
-  primary14: '#C32020',
-  primary15: '#964444',
-  primary16: '#397F15'
+  primary1: '#FFFFFF';
+  primary2: '#F8F8F8';
+  primary3: '#F0F0F0';
+  primary4: '#E5E5E5';
+  primary5: '#D3D3D3';
+  primary6: '#B5B5B5';
+  primary7: '#888787';
+  primary8: '#5F5F5F';
+  primary9: '#3E3E3E';
+  primary10: '#C8BCCF';
+  primary11: '#9981A5';
+  primary12: '#836793';
+  primary13: '#765787';
+  primary14: '#C32020';
+  primary15: '#964444';
+  primary16: '#397F15';
 }
 
 export type StyleReset = `
