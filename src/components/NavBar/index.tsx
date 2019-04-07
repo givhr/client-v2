@@ -10,6 +10,6 @@ export const NavBar = styled.nav<{ vert?: boolean }>`
   height: ${({ vert }) => (vert ? `calc(${'100vh - 80px'})` : '80px')};
   flex-direction: ${({ vert }) => vert && 'column'};
   justify-content: ${({ vert }) => vert && 'space-between'};
-  background-color: ${({ vert, theme }) => (vert ? theme.primary14 : theme.primary1)};
+  background-color: ${({ vert, theme }) => (vert ? theme.primary13 : theme.primary1)};
   box-shadow: ${({ vert, theme }) => (vert ? theme.boxShadowVertNav : theme.boxShadowHorzNav)};
 `;
