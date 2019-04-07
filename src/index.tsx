@@ -6,15 +6,15 @@ import * as serviceWorker from './serviceWorker';
 import { GlobalStyles } from './theme/globalStyles';
 import { ThemeProvider } from './theme/styledComponent';
 
-
 render(
   <ThemeProvider theme={theme}>
-  <>
-    <App />
-    <GlobalStyles />
-  </>
-</ThemeProvider>,
-document.getElementById('root'));
+    <>
+      <App />
+      <GlobalStyles />
+    </>
+  </ThemeProvider>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
