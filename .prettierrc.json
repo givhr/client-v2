@@ -1,9 +1,10 @@
 {
   "tabWidth": 2,
+  "printWidth": 110,
   "singleQuote": true,
+  "parser": "typescript",
   "bracketSpacing": true,
-  "arrowParens": "always",
   "trailingComma": "none",
-  "jsxBracketSameLine": true,
-  "parser": "typescript"
+  "arrowParens": "always",
+  "jsxBracketSameLine": true
 }
