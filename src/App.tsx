@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import styled from './theme/styledComponent';
+import NavBarHorizontal from './components/NavBar/NavBarHorizontal';
+import NavBarVertical from './components/NavBar/NavBarVertical';
 
 class App extends Component {
   render() {
-    return <Text>Theme is Working</Text>;
+    return (
+      <>
+        <NavBarHorizontal />
+        <NavBarVertical />
+      </>
+    );
   }
 }
 
 export default App;
-
-const Text = styled.div`
-  color: ${({ theme }) => theme.primary12};
-`;
